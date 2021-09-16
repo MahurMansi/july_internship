@@ -1,0 +1,369 @@
+body
+{
+    margin:auto;
+    background-color:whitesmoke;
+    
+}
+#header
+{
+    background-color:rgb(9, 92, 124);
+    height: 100px;
+    width:100%;    	
+}
+#logo_main
+{
+    background-color:white;
+    width:80px;
+      position: absolute;
+    margin-top:0.5%; 
+    margin-left:6%;
+    border-radius: 50%;
+    height:40x;
+    display: inline-block;
+}
+#logo
+{
+    color:rgba(185, 8, 67, 0.336);
+    text-align:center;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+a
+{
+    text-decoration: none;
+}
+#links
+{
+    display:inline-block;
+    margin-left: 70%;
+    margin-top:2%;
+    width:30%;
+    
+    
+}
+#login
+{
+    width:45%;
+    display: inline-block;
+    
+
+}
+#login > a
+{
+    margin-left: 70%;
+    color: azure;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    
+    
+
+}
+#login1
+{
+    width:42%;
+    border:1px solid whitesmoke;
+    display: inline-block;
+    height:30px; 
+    
+}
+#login1 > a
+{
+    margin-left: 2%;
+    color: azure;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    position:absolute;
+    margin-top:0.3%;
+}
+#heading
+{
+    font-weight:bold;
+    width:32%;
+    margin-left: 10%;
+    margin-top:3%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(6, 93, 128);   
+}
+#main
+{
+    margin-top:2%;
+    margin-left: 10%;
+    height:1000px;    
+}
+#filters
+{
+    width:20%; 
+    float:left;
+    height:600px;
+     background-color:white;
+     box-shadow: 3px 5px 5px grey;   
+}
+#hotel_list
+{
+     width:65%;
+    margin-left:25%;
+    margin-top: -38.5%;
+    float:left;
+    height:800px;   
+}
+#content1
+{
+    height: 300px;
+    box-shadow: 3px 5px 5px grey;
+    margin-top: -8%;
+    background-color:white;
+}
+
+.list
+{
+    height: 300px;
+    box-shadow: 3px 5px 5px grey;
+    margin-top: 1%;
+    background-color: white;
+}
+h2
+{
+   margin-left:9%;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color:rgb(8, 8, 90);
+}
+#len{
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(8, 8, 90);
+    margin-left:9%;
+
+}
+.h5{
+    margin-left:9%;
+    line-height: 0.1;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(8, 8, 90);
+}
+#drop{
+    margin-left:9%;
+    
+}
+select
+{
+    color:grey;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.checkbox{
+    margin-left:8%;
+    color:grey;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+#sorts
+{
+     margin-left:9%;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color:rgb(8, 8, 90);
+}
+.height
+{
+    line-height:1.5;
+}
+#ab
+{
+    margin-top:-4;
+}
+.food
+{
+    width:10%;
+     height:200px;
+     position:absolute;
+     margin-top:2%;
+     margin-left: 4%;
+     float:left;
+ }
+.food > img
+{
+     height:150px;
+    width:100%;
+    border-radius:20%;
+}
+.content2
+{
+    width:65%;
+    margin-left:30%;
+    height:68%;
+}
+#content1 > hr
+{
+    width:90%;
+}
+.content3  
+{
+    position:absolute;
+    width:25%;
+    height:24%;
+}
+.content3 >h1
+{
+    font-family:Comic Sans MS, Comic Sans, cursive;
+}
+.content3 > h4
+{
+    color:grey;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.content3 > p
+{
+    color:grey;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.content4
+{
+    width:28%;
+    height:20%;
+    float:left;
+    margin-left: 6%;
+    color:grey;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;
+
+    
+}
+.content5
+{
+    width:50%;
+    height:20%;
+    float:left;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    color:grey;
+     line-height: 2;
+}
+.list > hr
+{
+    width:90%;
+}
+
+@media screen and (max-width:980px)
+{
+    
+    #hotel_list
+    {
+        margin-top: -76.5%;
+      }
+      #filters
+    {  height: 650px;
+        width:21%;
+
+      }
+      #login
+    {
+        width:40%;
+        margin-right: 5%;
+    }
+    #login1
+    {
+        width:45%;
+        height:40%;
+    }
+}
+@media screen and (max-width:1500px)
+{
+
+    #hotel_list
+    {
+        margin-top: -42.2%;
+    }
+}
+
+@media screen and (max-width:1400px)
+{
+
+    #hotel_list
+    {
+        margin-top: -46.2%;
+    }
+}@media screen and (max-width:1300px)
+{
+    
+    #hotel_list
+    {
+        margin-top: -47.5%;
+    }
+}@media screen and (max-width:1200px)
+{
+    
+    #hotel_list
+    {
+        margin-top: -52.2%;
+    }
+}
+@media screen and (max-width:1100px)
+{
+    #hotel_list
+    {
+        margin-top: -57.5%;
+    }
+}
+@media screen and (max-width:1000px)
+{
+    
+    #hotel_list
+    {
+        margin-top: -64%;
+    }
+}
+@media screen and (max-width:900px)
+{
+    
+    #hotel_list
+    {
+        margin-top: -77%;
+    }
+    @media screen and (max-width:700px)
+    {
+        
+        #hotel_list
+        {
+            margin-top: -115%;
+            margin-left: 30%;
+        }
+        #filters
+        {
+            width:25%;
+            overflow: scroll;
+        }
+        #login 
+        {
+            margin-left: 20%;
+        }
+        #login1
+        {
+            width:80%;
+        }
+
+    } 
+}
+@media screen and (max-width:500px)
+{
+    
+    #hotel_list
+    {
+        margin-top: -144%;
+        margin-left: 35%;
+        
+    }
+    #filters
+    {
+        overflow:scroll;
+        width:30%;
+    }
+    .content3
+    {
+        overflow: scroll;
+    }
+    .content4
+    {
+        overflow: scroll;
+    }
+    #login1
+    {
+        width:95%;
+
+    }
+
+}
